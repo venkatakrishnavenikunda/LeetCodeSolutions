@@ -58,12 +58,13 @@ public class FindPattern {
     }
     public static void main(String[] args) {
         FindPattern solution = new FindPattern();
-        int[] nums1 = {1, 2, 3, 4}; // Output: false
-        int[] nums2 = {3, 1, 4, 2}; // Output: true
-        int[] nums3 = {-1, 3, 2, 0}; // Output: true
+        int[] nums1 = {1, 2, 3, 4}; 
+        int[] nums2 = {3, 1, 4, 2};
+        int[] nums3 = {-1, 3, 2, 0}; 
 
         System.out.println(solution.find132pattern(nums1));
         System.out.println(solution.find132pattern(nums2));
         System.out.println(solution.find132pattern(nums3));
     }
 }
+
